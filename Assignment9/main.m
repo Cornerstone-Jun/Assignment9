@@ -1,17 +1,36 @@
 //
 //  main.m
-//  Assignment9
+//  FoodTruck
 //
-//  Created by Jumpei on 2018-05-03.
-//  Copyright © 2018 Jumpei. All rights reserved.
+//  Copyright © 2016 Lighthouse Labs. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "FoodTruck.h"
+#import "Cook.h"
+#import "Server.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        FoodTruck *truckA = [[FoodTruck alloc] initWithName:@"Take a Bao" andFoodType:@"bao"];
+        
+        FoodTruck *truckB = [[FoodTruck alloc] initWithName:@"Tim Shortons" andFoodType:@"shortbread"];
+        
+        // create instances of your delegate class
+        Cook *miho = [Cook new];
+        Server *alex = [Server new];
+        
+        // set truckA and truckB's delegate to your new instance.
+        truckA.delegate = miho;
+        truckB.delegate = alex;
+        
+        
+        [truckA serve:10];
+        [truckB serve:5];
+        
+        [truckA cashOut];
+        [truckB cashOut];
     }
     return 0;
 }

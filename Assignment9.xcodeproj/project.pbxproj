@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BF45FFA8209BB1FB0090C39C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFA7209BB1FB0090C39C /* main.m */; };
+		BF45FFB8209BB20F0090C39C /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFAF209BB20F0090C39C /* Cook.m */; };
+		BF45FFB9209BB20F0090C39C /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFB1209BB20F0090C39C /* FoodTruck.m */; };
+		BF45FFBA209BB20F0090C39C /* FriendlyGreeterDecider.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFB3209BB20F0090C39C /* FriendlyGreeterDecider.m */; };
+		BF45FFBB209BB20F0090C39C /* Greeter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFB5209BB20F0090C39C /* Greeter.m */; };
+		BF45FFBC209BB20F0090C39C /* HorribleGreeterDecider.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFB7209BB20F0090C39C /* HorribleGreeterDecider.m */; };
+		BF45FFBF209BB21D0090C39C /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFBE209BB21D0090C39C /* Server.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		BF45FFA4209BB1FB0090C39C /* Assignment9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment9; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF45FFA7209BB1FB0090C39C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF45FFAE209BB20F0090C39C /* Cook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
+		BF45FFAF209BB20F0090C39C /* Cook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
+		BF45FFB0209BB20F0090C39C /* FoodTruck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
+		BF45FFB1209BB20F0090C39C /* FoodTruck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
+		BF45FFB2209BB20F0090C39C /* FriendlyGreeterDecider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendlyGreeterDecider.h; sourceTree = "<group>"; };
+		BF45FFB3209BB20F0090C39C /* FriendlyGreeterDecider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendlyGreeterDecider.m; sourceTree = "<group>"; };
+		BF45FFB4209BB20F0090C39C /* Greeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greeter.h; sourceTree = "<group>"; };
+		BF45FFB5209BB20F0090C39C /* Greeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Greeter.m; sourceTree = "<group>"; };
+		BF45FFB6209BB20F0090C39C /* HorribleGreeterDecider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorribleGreeterDecider.h; sourceTree = "<group>"; };
+		BF45FFB7209BB20F0090C39C /* HorribleGreeterDecider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorribleGreeterDecider.m; sourceTree = "<group>"; };
+		BF45FFBD209BB21D0090C39C /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		BF45FFBE209BB21D0090C39C /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,18 @@
 		BF45FFA6209BB1FB0090C39C /* Assignment9 */ = {
 			isa = PBXGroup;
 			children = (
+				BF45FFBD209BB21D0090C39C /* Server.h */,
+				BF45FFBE209BB21D0090C39C /* Server.m */,
+				BF45FFAE209BB20F0090C39C /* Cook.h */,
+				BF45FFAF209BB20F0090C39C /* Cook.m */,
+				BF45FFB0209BB20F0090C39C /* FoodTruck.h */,
+				BF45FFB1209BB20F0090C39C /* FoodTruck.m */,
+				BF45FFB2209BB20F0090C39C /* FriendlyGreeterDecider.h */,
+				BF45FFB3209BB20F0090C39C /* FriendlyGreeterDecider.m */,
+				BF45FFB4209BB20F0090C39C /* Greeter.h */,
+				BF45FFB5209BB20F0090C39C /* Greeter.m */,
+				BF45FFB6209BB20F0090C39C /* HorribleGreeterDecider.h */,
+				BF45FFB7209BB20F0090C39C /* HorribleGreeterDecider.m */,
 				BF45FFA7209BB1FB0090C39C /* main.m */,
 			);
 			path = Assignment9;
@@ -119,7 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF45FFBB209BB20F0090C39C /* Greeter.m in Sources */,
 				BF45FFA8209BB1FB0090C39C /* main.m in Sources */,
+				BF45FFBC209BB20F0090C39C /* HorribleGreeterDecider.m in Sources */,
+				BF45FFB9209BB20F0090C39C /* FoodTruck.m in Sources */,
+				BF45FFBA209BB20F0090C39C /* FriendlyGreeterDecider.m in Sources */,
+				BF45FFB8209BB20F0090C39C /* Cook.m in Sources */,
+				BF45FFBF209BB21D0090C39C /* Server.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
